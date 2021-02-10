@@ -6,10 +6,11 @@ while array[counter] do
   counter += 1
 end
 
-def new_array []
+def square_array []
   while array[counter] > 0 do 
     puts array[counter]**2 
   end 
+square_array
 end
     
   
