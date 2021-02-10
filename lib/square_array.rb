@@ -1,7 +1,9 @@
-
 array = [1,2,3,4,5]
- 
-while array[counter] do
-  puts array[counter]
-  counter += 1
-end
+
+square_array = []
+
+while array.length.times > 0 
+
+do 
+  
+  square_array.
