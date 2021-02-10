@@ -10,6 +10,7 @@ def new_array []
   while array[counter] > 0 do 
     puts array[counter]**2 
   end 
+end
     
   
   
