@@ -1,17 +1,10 @@
-counter = 0
-array = [1,2,3,4,5]
- 
-while array[counter] do
-  puts array[counter]
+def square_array(numbers)
+  new_numbers = []
+  counter = 0
+  while counter < numbers.length()
+  new_numbers.push(numbers[counter] ** 2)
   counter += 1
-end
-
-def square_array []
-  while array[counter] > 0 do 
-    puts array[counter]**2 
-  end 
-square_array
-end
-    
-  
+  end
+  new_numbers
+end (edited) 
   
