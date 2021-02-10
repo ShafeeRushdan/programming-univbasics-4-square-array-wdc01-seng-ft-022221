@@ -2,6 +2,6 @@ counter = 0
 array = [1,2,3,4,5]
  
 while array[counter] do
-  puts array[counter]
+  puts array[counter]**2
   counter += 1
 end
